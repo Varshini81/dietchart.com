@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0px;
+    display: flex;
+    justify-content: center;
+    background-color:#4CAF50 ;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.meal-info, .meal-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.meal-info img, .meal-item img {
+    max-width: 150px;
+    border-radius: 8px;
+    margin-right: 5rem;
+    margin-left:10px;
+    margin-top:15px;
+
+
+}
+
+.meal-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.meal-item {
+    flex: 1 1 calc(33.333% - 1rem);
+    box-sizing: border-box;
+    margin: 0.5rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.meal-item img {
+    max-width: 100%;
+    height:auto;
+    margin-bottom: 0.5rem;
+}
